@@ -1,9 +1,10 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register Form</h1>
+    <h1>New User Register Form</h1>
     <p>Please fill in this form to create an account</p>
     <hr>
-
+    <label for="name"><b>Name</b></label><br>
+    <input type="text" placeholder="Enter name" name="name" id="name" required>
     <label for="email"><b>Email</b></label><br>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
  <br>
